@@ -18,7 +18,7 @@ class AdminService {
         return new ApiResponse(apiError.status, apiError.message);
       }
     }
-  }
+  } 
 
   static async editAdmin(adminId, requestPayload) {
     try {
