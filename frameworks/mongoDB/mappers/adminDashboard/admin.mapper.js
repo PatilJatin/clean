@@ -42,7 +42,7 @@ class AdminMapper {
       active,
       outlet,
       id,
-    } = entity;
+    } = entity?.data?.data;
     return new AdminResponse(
       name,
       email,

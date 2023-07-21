@@ -12,7 +12,7 @@ class AbstractAdmin {
     active = true,
     outlet
   ) {
-    this.name = name;
+    this.name = name; 
     this.email = email;
     this.phone = phone;
     this.brand = brand;

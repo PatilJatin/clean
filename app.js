@@ -2,7 +2,6 @@ const express = require("express");
 const RootRoute = require("./frameworks/webserver/routes/root.route");
 const ConcreteDatabase = require("./database/db.config");
 require("dotenv").config();
-const logger = require("./logger/index");
 const databaseUrl = process.env.MONGO_URL;
 
 const database = new ConcreteDatabase(databaseUrl);

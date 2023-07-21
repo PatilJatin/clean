@@ -1,7 +1,6 @@
-// admin.response.js
-const Admin = require("../../../../entities/root.entity");
+const AbstractAdmin = require("../../../../entities/root.entity");
 
-class AdminResponse extends Admin {
+class AdminResponse extends AbstractAdmin {
   constructor(
     name,
     email,

@@ -10,6 +10,7 @@ async function findAdminById(adminId) {
     if (!admin) {
       throw new ApiError(404, "Admin not found");
     }
+
     return new ApiResponse(200, "Admin found", admin);
   } catch (error) {
     if (error instanceof ApiError) {
